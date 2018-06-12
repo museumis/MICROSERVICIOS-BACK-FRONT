@@ -1,0 +1,46 @@
+<!-- 
+Created on : 10-Jun-2018
+Author     : Ismael Martin Ramirez 
+-->
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" data-ng-app="keyAngular">
+    <head>
+        <meta charset="UTF-8">
+        <title>Micro | Front</title>
+        
+        <meta name="author" content="Ismael Martín Ramírez" />
+        <meta name="description" content="Microservicio-FrontEnd" />
+        <meta name="generator" content="Brackets" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+         <!--Angular-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+        
+        <!-- BootStrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+      
+          <!-- Estilo css
+        <link rel="stylesheet" type="text/css" href="front/estilos/XXXX.css">-->
+          
+      </head>
+
+    <body >
+        <div ng-include src="'front/view/menuPrincipal.html'"></div>
+                    
+        <div ng-view></div>    
+                
+        <div ng-include src="'front/view/footer.html'"></div>
+
+
+        <script src="front/script/app.js"></script>
+        <script src="front/script/controllers/controller.js"></script>
+        <script src="front/script/rautins/rautins.js"></script>
+        <script src="front/frontales/inicio/controller.js"></script>
+
+
+    </body>
+</html>

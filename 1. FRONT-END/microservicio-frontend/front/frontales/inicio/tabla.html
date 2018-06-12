@@ -1,0 +1,26 @@
+<!-- 
+Created on : 10-Jun-2018
+Author     : Ismael Martin Ramirez 
+-->
+<section ng-controller="inicio" class="container"> 
+    <div class="table-responsive">
+        <table class="table table-hover table-striped table-bordered">
+            <caption>Tabla obtenida en Backend</caption>
+
+                <tr>
+    <th>#</th>
+    <th ng-repeat="titulo in titulos">{{titulo}}</th>
+  
+  </tr>
+            
+    <tr ng-repeat="respuesta in tabla">
+     <th>{{$index+1}}</th>
+    <td>{{respuesta.col1}}</td>
+    <td>{{respuesta.col2}}</td>
+    <td>{{respuesta.col3}}</td>
+    <td>{{respuesta.col4}}</td>
+  </tr>
+  
+        </table> 
+    </div>
+</section>
