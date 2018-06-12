@@ -4,7 +4,7 @@ Proyecto básico de front-end y back-end en microservicios.
 
 # BACK-END
 
-Base de datos SQL sostenida en dos microservicios hospedados en Eureka y monotorizados por Zuul
+Base de datos SQL sostenida en dos microservicios hospedados en Eureka y monitorizados por Zuul
 
 ![alt text](https://raw.githubusercontent.com/museumis/MICROSERVICIOS-BACK-FRONT/master/3.%20Documentacion/Imagenes/back-end.JPG)
 
